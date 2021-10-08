@@ -1,0 +1,51 @@
+.container{
+    width: 1010px;
+    height: 909px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.tree-rows{
+    width: 40px;
+    height: 40px;
+    margin: -55px 0 15px 0;
+    display: none;
+}
+.tree-rows div {
+    border: 1px solid black;
+    width: auto;
+    margin-bottom: 10px;
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        display: grid;
+        width: 0;
+    }
+    .teacher-section-tree-rows{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .tree-rows, .tree-rows div {
+        display: block;
+    }
+}
+@media screen and (max-width: 700px) {
+    .tree-rows div{
+        height: 33px;
+        background-color: black;
+    }
+    .tree-rows{
+        margin: 0px 0 25px 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 560px){
+    .tree-rows {
+        margin: -55px 0 15px -35px;
+    }
+}

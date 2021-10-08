@@ -1,0 +1,98 @@
+.info-frilans{
+    width: 620px;
+    height: 900px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.frinlans-top-div{
+    background: #4B4B4B;
+    opacity: 0.5;
+    border-radius: 15px;
+    width: 92.5%;
+    height: 200px;
+    margin: 20px;
+}
+.frinlans-top-div .frinlans-top-div-in-div{
+    background: #706F6F;
+    opacity: 1;
+    border-radius: 15px 0px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frinlans-top-ddiv-left-div{
+    display: flex;
+    margin: 0 0 0 20px;
+}
+.frinlans-top-ddiv-left-div img{  
+    width: 15px;  
+    margin: 0 20px 0 0;
+}
+.frinlans-top-ddiv-left-div p {
+    font-size: 14.5px;
+    color: #FFFFFF;
+}
+.frinlans-top-ddiv-right-div img{
+    margin-right: 15px;
+}
+.frilans-patmeq-text, .frilans-kapvelu-mij{
+    margin: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.frilans-kapvelu-mij{
+    opacity: 0.5;
+}
+.frilans-wotcap-div{
+    background-image: url("../../Images/icon-wotcap.png");
+    background-repeat: no-repeat;
+    margin-left: 45px;
+}
+.input-wotcap{
+    background: #4B4B4B;
+    opacity: 0.5;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: -20px;
+    margin-top: -9px;
+    height: 45px;
+    text-align: center;
+    border: none;
+}
+.frilans-wotcap-under-text{
+    display: flex;
+    margin: 15px 0 35px 110px;
+    /* margin-left: 110px;
+    margin-top: 15px;
+    margin-bottom: 35px; */
+}
+.frilans-wotcap-under-text p{
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.frilans-wotcap-under-text button{
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+    font-size: larger;
+    margin-left: 10px;
+}
+.frilans-ashx-gnah-div{
+    background: #4B4B4B;
+    border-radius: 15px;
+    margin: 20px;
+    width: 56%;
+    height: 100px;
+    padding: 1px;
+}
+.frilans-ashx-gnah-div p{
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin: 20px;
+    font-size: 13px;
+}

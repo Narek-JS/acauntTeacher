@@ -1,0 +1,20 @@
+.teacherSection{
+    width: 350px;
+    height: auto;
+    background-color: #363636;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1000px){
+    .teacherSection{
+        margin-left: 13.5%;
+        margin-right: 40px;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 560px){
+    .teacherSection{
+        margin-left:7.5%;
+        width: 250px;
+    }
+}

@@ -1,0 +1,131 @@
+.ashxatanq-inform-page{
+    width: 620px;
+    height: 1450px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.ashxat-top-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 37px 60px 37px;
+    letter-spacing: 0.055em;
+}
+.ashxat-top-text .top-text-1{
+    color: #FFFFFF;
+    transition: 1s;
+}
+.ashxat-top-text .top-text-2{
+    color: #FFFFFF;
+    transition: 1s;
+}
+.ashxat-top-text .top-text-1:hover{
+    text-decoration-line: underline;
+    font-size: 16.5px;
+}
+.ashxat-top-text .top-text-2:hover{
+    text-decoration-line: underline;
+    font-size: 16.5px;
+}
+.ashxat-arka-hrka-text{
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin: 0 0px 20px 16px;
+    font-size: 19px;
+    font-weight: 200;
+}
+.arka-hrka-under-div, .arka-hrka-un-under-div{
+    display: flex;
+    margin: 0px 0 15px 0;
+    justify-content: space-around;
+}
+.arka-hrka-un-under-div{
+    margin-bottom: 30px;
+}
+.arka-hrka-under-div p{
+    font-size: 14.5px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.arka-hrka-un-under-div p{
+    font-size: 14.5px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.arka-hrka-un-under-div .arka-hrka-un-under-text-yellow{
+    color: #FCAF21;
+}
+.arka-hrka-under-row{
+    height: 1px;
+    margin: 0 20px;
+    width: 94%;
+    background-color: #FFFFFF;
+}
+.arka-hrka-under-row-under-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.arka-hrka-under-row-under-div p {
+    font-size: 12px;
+    letter-spacing: 0.070em;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.under-row-under-under-nums{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
+.under-row-under-under-nums p{
+    color: #FFFFFF;
+}
+.under-row-under-under-nums .under-row-under-under-nums-red{
+    letter-spacing: 0.055em;
+    color: #FA5181;
+}
+.amis-ashx-div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.amis-ashx-div h2{
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin: 0 0px 20px 16px;
+    font-size: 19px;
+    font-weight: 200;
+}
+.amis-ashx-div .amis-ashx-green{
+    color: #49D066;
+    margin-left: 35px;
+    margin-right: 17px;
+}
+.ashx-big-text-top{
+    margin: 12px 20px 20px 20px;
+    width: 94%;
+}
+.ashx-big-text-top p{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.110em;
+    color: rgba(255, 255, 255, 0.5)    
+}
+.arka-hrka-under-row-duble{
+    height: 1px;
+    margin: 2.5px 0px 40px 20px;
+    width: 94%;
+    background-color: #FFFFFF;
+}
+.ashx-anhat-das-text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin: 35px 20px;
+}

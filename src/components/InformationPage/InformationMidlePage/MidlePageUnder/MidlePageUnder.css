@@ -1,0 +1,45 @@
+.midle-page-under{
+    width: 300px;
+    height: 260px;
+    margin: 20px;
+}
+.midle-under-data{
+    display: flex;
+    margin-bottom: 20px;
+}
+.midle-page-under .lesson{
+    margin-bottom: 25px;
+}
+.midle-under-data h5, h4{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.midle-under-data img{
+    margin: 0 15px;
+}
+@media screen and (max-width: 700px) {
+    .midle-under-data{
+        margin-bottom: 25px;
+    }
+    .midle-under-data h5, h4{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .midle-page-under{
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+    .midle-page-under .lesson {
+        margin-bottom: 20px;
+    }
+    .midle-under-data {
+        margin-bottom: 20px;
+    }
+}

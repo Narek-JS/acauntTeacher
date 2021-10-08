@@ -1,0 +1,102 @@
+.info-page-info{
+    width: 620px;
+    height: 1100px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.cus-seclect-box{
+    background: #4B4B4B;
+    opacity: 0.5;
+    border-radius: 15px;
+    padding: 16px;
+    color: white;
+}
+.calendar-data{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+}
+.calendar-data h3{
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 200;
+}
+.info-opening-plan-das-box{
+    display: flex;
+    align-items: center;
+    background: #626262;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 8px 8px 14px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    width: auto;
+    height: 30px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+    justify-content: space-between;
+}
+.info-opening-plan-das-box:hover{
+    opacity: 1;
+    height: 35px;
+}
+.info-opening-plan-das-box p {
+    line-height: 16px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 200;
+}
+.soc-hxumner{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.soc-hxumner h3, .info-under-text{
+    font-size: 16.2px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 200;
+}
+.info-soc-box{
+    height: 35px;
+    background: #626262;
+    opacity: 0.6;
+    transition: 0.5s;
+    border-radius: 15px;
+    margin: 20px 0px 20px 50px;
+    width: 48%;
+    padding: 15px;
+}
+.info-page-info table{
+    margin: 30px 20px 10px 20px;
+    width: 93%;
+}
+.info-page-info table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 0.5px;
+    height: 43px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.info-under-text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info-under-row{
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 93%;
+    margin: 0 20px 0 20px;
+}

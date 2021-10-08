@@ -1,0 +1,155 @@
+.inf-hachaxel-continer{
+    width: 620px;
+    height: 1200px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.inf-hachaxel-continer .top-tex-sectiom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.inf-hachaxel-continer .top-tex-sectiom p{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.inf-hachaxel-continer .top-tex-sectiom p:hover{
+    text-decoration-line: underline;
+}
+.inf-hachaxel-continer .slac-under-xumb{
+    display: flex;
+    margin: 40px 20px;
+}
+.inf-hachaxel-continer .slac-under-xumb div{
+    background-image: url("../../Images/slac-under.png");
+    width: 10px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.inf-hachaxel-continer .slac-under-xumb h3{
+    margin-top: -7px;
+    line-height: 21px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.inf-hachaxel-continer .midle-tex-sectiom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.inf-hachaxel-continer .midle-tex-sectiom p{
+    font-size: 11.5px;
+    line-height: 21px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.inf-hachaxel-continer .hach-continer-page-div .hach-continer{
+    margin: 20px;
+}
+.inf-hachaxel-continer .hach-continer-page-div{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.inf-hachaxel-continer .hach-continer-page-div .hach-continer-row{
+    height: 1px;
+    background-color: blanchedalmond;
+}
+.hach-continer-page-div .hach-continer-row-under{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+.hach-continer-row-under .hach-continer-box{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    margin-right: 80px;
+    margin-left: -80px;
+    border-radius: 5px;
+}
+.hach-continer-das, .hach-continer-data{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+
+.inf-hachaxel-continer table {
+    margin: 50px 20px;
+    width: 93%;
+}
+
+.inf-hachaxel-continer table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 0.5px;
+    height: 43px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+td p {
+    font-size: 10px;
+    opacity: 0.5;
+}
+.hach-under-tag1, .hach-under-tag2, .hach-under-tag3{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.hach-under-tag1 div{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.hach-under-tag2 div{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.hach-under-tag3 div{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.hach-under-tag1 h2{
+    color: green;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    font-weight: 100;
+}
+.hach-under-tag2 h2{
+    color: orange;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    font-weight: 100;
+}
+
+.hach-under-tag3 h2{
+    color: red;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    font-weight: 100;
+}
+

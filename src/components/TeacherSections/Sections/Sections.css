@@ -1,0 +1,23 @@
+/* ------ Բաժիններ ֊֊֊֊֊֊ */
+.sections{
+    padding: 25px;
+}
+.part {
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.part a{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1000px) {
+    .sections{
+        display: none;
+    }
+}

@@ -1,0 +1,125 @@
+.plan-das{
+    font-family: ArialArmST;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    text-align: end;
+    margin-right: 15px;
+}
+.opening-plan-das-box{
+    display: flex;
+    align-items: center;
+    background: #626262;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 8px 8px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: auto;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.opening-plan-das-box:hover{
+    opacity: 1;
+    height: 60px;
+}
+.opening-plan-das-box .add{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 100;
+    display: none;
+}
+.--plan-das-continer--{
+    width: auto;
+    height: 92px;
+}
+.plan-das-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan-das-box .first-text{ 
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-size: 12.5px;
+}
+.plan-das-box .box-row{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin-left: 20px;
+}
+.plan-das-box .box-data-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.055em; 
+    color: #FFFFFF; 
+    margin-left: 20px;   
+    font-size: 15px;
+}
+.plan-das-box .box-data-time h3{
+    font-weight: 300;
+}
+.plan-das-box button {
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(92.88deg, #B565D8 9.74%, #EE609C 99.48%);
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+}
+.responsive-div{
+    display: flex;
+}
+@media screen and (max-width: 700px) {
+    .plan-das-box .box-row{
+        margin: 0;
+    }
+    .plan-das-box .box-data-time{
+        width: 150px;
+        margin: 0;
+    }
+    .plan-das-box button{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:560px) {
+    .plan-das{
+        margin: 10px 10px -15px 0px;
+    }
+    .opening-plan-das-box{
+        padding: 0;
+        height: 120px;
+        margin: 40px 10px 0px 10px;
+    }
+    .plan-das-box{
+        display: block;
+        padding: 1px;
+        margin: 0;
+    }
+    .responsive-div {
+        margin: 10px 15px;
+        display: flex;
+    }
+    .plan-das-box .box-row {
+        display: none;
+    }
+    .plan-das-box button {
+        width: 85%;
+    }
+}

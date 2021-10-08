@@ -1,0 +1,54 @@
+.information-page{
+    width: 620px;
+    height: 900px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.information-sections{
+    display: flex;
+    justify-content: space-between;
+}
+.information-sections h2{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 25px 20px;
+}
+.information-sections h2:hover{
+    color: #FFFFFF;
+    opacity: 1;
+}
+.information-sections h2 a{
+    color: #FFFFFF;
+}
+.ede{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .information-page{
+        width: 550px;
+    }
+    .information-sections{
+        justify-content: space-between;
+    }
+    .information-sections h2{
+        letter-spacing: 0.10em;
+        font-size: 12.3px;
+    }
+}
+@media screen and (max-width:560px) {
+    .information-page{
+        height: auto;
+        width: 350px;
+        background: #2e2d2d;
+        padding-bottom: 40px;
+    }
+    .information-sections{
+        display: none;
+    }
+}

@@ -1,0 +1,115 @@
+/* ------- ձախ հատված ------- */
+.data{
+    display: flex;
+}
+/* ------- փակագիր ------- */
+.bracket {
+    width: 35px;
+    height: 60px;
+    background: #FF4B4B;
+    border-radius: 0px 0px 15px 15px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-right: -30px;
+}
+/* ------- ՈՒսուցչի նկար ------- */
+.Teacher-images{
+    background-image: url("../../../Images/Teacher-image.png");
+    width: 264px;
+    height: 274px;
+    margin: 25px 0px 15px 1px;
+}
+/* ------- կանաչ կետ ------- */
+.dath{
+    margin: 81% 0 0 81%;
+}
+/* ------- Աստղեր ------- */
+.stars{
+    text-align: center;
+}
+/* ------- ՈՒսուցչի Անուն ------- */
+.teacher-name{
+    text-align: center;
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+/* ------- ՈՒսուցչի պաշտոն ------- */
+.teacher-status{
+    text-align: center;
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+/* ------- Զանգուլակ ------- */
+.bell{
+    margin-left: 100%;
+}
+/* ------- Գիծ ------- */
+.teacher-data-row {
+    width: 114%;
+    height: 1px;
+    background-color: black;
+    margin-left: -16px;
+}
+@media screen and (max-width: 1000px) {
+    .teacher-data-row{
+        display: none;
+    }
+    .dath {
+        margin: 85% 0 0 78%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .bracket {
+        width: 20px;
+        height: 43px;
+        margin-left: 13px;
+        font-size: 28px;
+        color: #FFFFFF;
+        line-height: 39px;
+        margin-right: 14px;
+    }
+    .Teacher-images{
+        background-image: url("../../../Images/Teacher-image.png");
+        background-size: 71%;
+        background-repeat: no-repeat;
+        margin: 25px 0px 15px -4px;
+        width: 230px;
+        height: 170px;
+    }
+    .dath{
+        margin: 59% 0 16px 56%;
+        width: 20px;
+    }
+    .stars{
+        text-align: inherit;
+    }
+    .teacher-name{
+        font-size: 20px;
+        text-align: inherit;
+        margin-left: -25px;
+    }
+    .teacher-status{
+        font-size: 16px;
+        text-align: inherit;
+    }
+    .bell {
+        margin-left: 33%;
+    }
+}

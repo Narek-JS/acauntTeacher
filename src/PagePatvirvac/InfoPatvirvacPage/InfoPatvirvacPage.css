@@ -1,0 +1,112 @@
+.info-patvirvac{
+    width: 620px;
+    height: 720px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.ert{
+    margin-bottom: -20px;
+}
+.information-sections h2{
+    font-size: 12.5px;
+}
+.information-sections h2:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.info-patvir-logo-div {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.info-patvir-logo-div p {
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.patvirvac-anraj-p{
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.patvir-massege-page {
+    background: #545454;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 8px 8px 14px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    width: 93.5%;
+    height: 300px;
+    margin: 20px;
+    padding-top: 50px;
+}
+.massege-page-data{
+    line-height: 186.3%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.massege-page-time{
+    line-height: 186.3%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0px 20px 10px 10px;
+}
+.massege-piruz{
+    background: #2F5261;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 8px 8px 14px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 9.6px;
+    width: 69%;
+    line-height: 20px;
+}
+.massege-piruz p {
+    line-height: 186.3%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.massege-page-time-un{
+    text-align: end;
+    line-height: 186.3%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0px 20px 10px 10px;
+}
+.massege-blue {
+    background: #2C3F5B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 8px 8px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 9.6px;
+    line-height: 20px;
+    width: 69%;
+    margin-left: 25%;
+}
+.massege-blue p {
+    line-height: 186.3%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.patvirvac-under-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.patvirvac-under-div input{
+    background: #545454;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 8px 8px 14px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    width: 90%;
+    height: 40px;
+    border: none;
+}

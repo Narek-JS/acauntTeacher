@@ -1,0 +1,139 @@
+.midle-page-top{
+    display: flex;
+}
+.image-book{
+    background-image: url("../../../../Images/image-book.png");
+    width: 290px;
+    height: 190px;
+    border-radius: 15px;
+    margin: 20px 20px 0 20px;
+}
+.image-book img{
+    margin-left: 44%;
+    margin-top: 24%;
+}
+.data-image-book{
+    width: 237px;
+    height: 190px;
+    margin: 20px 20px 0 0;
+}
+.data-image-book .icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.data-image-book .icon-pan{
+    width: 15px;
+    height: 20px;
+}
+.data-image-book .icon-garbage{
+    width: 15px;
+    height: 20px;
+    margin-left: 25px;
+}
+.data-image-book .veb{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.010em;
+    color: #FFFFFF;
+}
+.data-image-book .row{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    width: auto;
+    margin: 10px 0 10px 0;
+}
+.data-image-book .button-files h5{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.data-image-book .button-files{
+    display: flex;
+    justify-content: space-between;
+}
+.data-image-book .button-files button{
+    color: #FFFFFF;
+    margin-top: 5px;
+    background: #2A2A2A;
+    border-radius: 8px;
+    font-size: 15px;
+    height: 30px;
+    width: 60px;
+}
+.data-image-book .file-text{
+    display: flex;
+}
+.data-image-book .file-text img {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+.data-image-book .file-text h5{
+    color: #FFFFFF; 
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.055em;
+}
+.data-image-book .amis{
+    font-family: Arial AMU;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin-left: 46.8%;
+    margin-top: 10px;
+}
+.nkar-icons{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .data-image-book .amis{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .midle-page-top{
+       display: block;
+       padding: 20px;
+    }
+    .image-book{
+        width: 170px;
+        height: 120px;
+        margin: 0;    
+    }
+    .image-book-ooo{
+        display: none;
+    }
+    .data-image-book .icons{
+        display: none;
+    }
+    .nkar-icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nkar-icons .icon-garbage{
+        margin-left: 15px;
+    }
+    .data-image-book .veb{
+        font-size: 17px;
+        letter-spacing: 0.027em;
+    }
+    .data-image-book {
+        width: 274px;
+        height: 147px;
+        margin: 20px 0 0 0;
+    }
+}

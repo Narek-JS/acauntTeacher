@@ -1,0 +1,73 @@
+.info-portfolio{
+    width: 620px;
+    height: 900px;
+    background-color: #363636;
+    border-radius: 15px;
+}
+.info-portfolio input {
+    padding-left: 10px;
+    border: none;
+    width: 340px;
+    height: 50px;
+    margin: 35px 0px -15px 20px;
+    background: #4B4B4B;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.info-portfolio-for-div{
+    display: flex;
+    margin-top: 50px;
+}
+.info-portfolio-for-div button {
+    border: 1px solid #FFFFFF;
+    margin-left: 21px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    background: #363636;
+    height: 40px;
+}
+.portfolio-section-file{
+    background: #4B4B4B;
+    opacity: 0.5;
+    border-radius: 15px;
+    width: 82%;
+    height: 450px;
+    margin: 20px;
+}
+.portfolio-section-file p {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40%;
+}
+.portfolio-under-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.portfolio-under-div button{
+    background: linear-gradient(92.88deg, #B565D8 9.74%, #EE609C 99.48%);
+    border-radius: 10px;
+    width: 210px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF
+}
+.portfolio-under-div div{
+    display: flex;
+    align-items: center;
+}
+.portfolio-under-div div p{
+    line-height: 17px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 10px;
+}
+.portfolio-under-div div img{
+    width: 10px;
+    margin: 0 20px 0px 20px;
+}

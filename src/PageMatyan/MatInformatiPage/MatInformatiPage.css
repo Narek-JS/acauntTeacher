@@ -1,0 +1,57 @@
+.mat-informati-page{
+    width: 620px;
+    height: 900px;
+    background: #363636;
+    border-radius: 15px;
+}
+.remember-das{
+    margin: 20px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: end;
+}
+.icon-slac{
+    width: 20px;
+    height: 30px;
+    background-image: url("../../Images/slac.png");
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-right: 10px;
+}
+.plan-das-box-mat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan-das-box-mat .first-text{
+    margin: 10 15px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.--plan-das-continer--mat{
+    padding: 0px;
+    height: 70px;
+    margin: 15px 10px 0px 10px;
+}
+.opening-plan-das-box-mat{
+    background: #626262;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 8px 8px 14px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    width: auto;
+    height: 40px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+@media screen and (max-width: 560px) {
+    .plan-das-box-mat .first-text {
+        font-size: 12px;
+    }
+}
